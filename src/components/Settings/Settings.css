@@ -1,0 +1,10 @@
+#settings {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 565px) {
+  #settings {
+    flex-direction: column;
+  }
+}
